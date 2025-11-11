@@ -26,6 +26,7 @@ const navegador= document.createElement('nav');
 
 navegador.classList.add('navegador');
 
+
 const Ir_a= document.createElement('a');
 
 Ir_a.textContent='Ir a...';
@@ -36,6 +37,19 @@ Ir_a.target='_blank';
 Ir_a.classList.add('Ir');
 
 navegador.appendChild(Ir_a);
+
+
+const Ir_a_YouTube= document.createElement('a');
+
+Ir_a_YouTube.textContent='Ir a YouTube...';
+
+Ir_a_YouTube.href='https://www.youtube.com/';
+Ir_a_YouTube.target='_blank';
+
+Ir_a_YouTube.classList.add('Ir_YuoTube');
+
+navegador.appendChild(Ir_a_YouTube);
+
 
 
 CONTAINER_PRINCIPAL.appendChild(navegador);
