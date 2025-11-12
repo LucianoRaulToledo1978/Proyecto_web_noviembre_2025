@@ -21,6 +21,26 @@ cabecera.appendChild(titulo)
 CONTAINER_PRINCIPAL.appendChild(cabecera);
 
 //-------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------
+
+
+// ======== BOTÓN HAMBURGUESA ========
+const menuToggle = document.createElement('div');
+menuToggle.classList.add('menu-toggle');
+menuToggle.innerHTML = '<span></span><span></span><span></span>';
+
+
+cabecera.appendChild(menuToggle);
+CONTAINER_PRINCIPAL.appendChild(cabecera);
+
+
+
+
+
+//-----------------------------------------------------------------------------------------------
+
+
+
 
 const navegador= document.createElement('nav');
 

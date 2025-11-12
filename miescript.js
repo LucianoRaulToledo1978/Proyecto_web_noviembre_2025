@@ -20,7 +20,10 @@ cabecera.appendChild(titulo)
 
 CONTAINER_PRINCIPAL.appendChild(cabecera);
 
-//-------------------------------------------------------------------------------------
+
+
+
+
 
 const navegador= document.createElement('nav');
 
