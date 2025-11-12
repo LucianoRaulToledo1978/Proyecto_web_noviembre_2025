@@ -53,9 +53,6 @@ navegador.appendChild(libreria);
 
 
 
-
-
-
 const cotillon= document.createElement('a');
 
 cotillon.textContent='Cotillon';
