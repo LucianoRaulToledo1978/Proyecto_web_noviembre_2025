@@ -57,7 +57,7 @@ body {
   
 }
 /*
-.Ir {
+.libreria {
   color: #fff;
   text-decoration: none;
   font-size: 1.2rem;
@@ -65,7 +65,7 @@ body {
   transition: all 0.3s ease;
 }
 
-.Ir:hover {
+.libreria:hover {
   color: #222;
   background-color: rgba(255, 255, 255, 0.3);
   padding: 5px 10px;

@@ -103,26 +103,19 @@ CONTAINER_PRINCIPAL.appendChild(pie_de_pagina);
 
 //------------------------------------------------------------------------------------------
 
-const video = document.createElement('video');
-
-video.classList.add('video');
-
-video.src="./videos/videoplayback.mp4";
-video.controls=true;
-video.width=150;
-video.heigth=250;
-
-cuadro1.appendChild(video);
-
-//--------------------------------------------------------------------------------------------------
 
 const imagen= document.createElement('img');
 
-imagen.src="./imagenes/ratones_paranoicos.jfif";
-imagen.alt="logo ratones";
+imagen.src="./imagenes/utiles_1.jfif";
+imagen.alt="logo utiles_1";
 imagen.width=150;
 
 cuadro2.appendChild(imagen);
 
-//--------------------------------------------------------------------------------------------------------
+const imagen1= document.createElement('img');
 
+imagen1.src="./imagenes/utiles_2.png";
+imagen1.alt="logo utiles_2";
+imagen1.width=150;
+
+cuadro1.appendChild(imagen1);
