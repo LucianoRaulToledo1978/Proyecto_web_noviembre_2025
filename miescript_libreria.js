@@ -56,16 +56,16 @@ navegador.appendChild(libreria);
 
 
 
-const Ir_a_YouTube= document.createElement('a');
+const cotillon= document.createElement('a');
 
-Ir_a_YouTube.textContent='Cotillon';
+cotillon.textContent='Cotillon';
 
-Ir_a_YouTube.href='https://www.youtube.com/';
-Ir_a_YouTube.target='_blank';
+cotillon.href='./cotillon.html';
+/*cotillon.target='_blank';*/
 
-Ir_a_YouTube.classList.add('Ir_YuoTube');
+cotillon.classList.add('cotillon');
 
-navegador.appendChild(Ir_a_YouTube);
+navegador.appendChild(cotillon);
 
 
 
