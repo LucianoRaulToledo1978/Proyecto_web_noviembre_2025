@@ -77,6 +77,8 @@ cotillon.classList.add('almacen');
 
 navegador.appendChild(almacen);
 
+
+
 CONTAINER_PRINCIPAL.appendChild(navegador);
 
 //---------------------------------------------------------------------------------------
@@ -114,7 +116,7 @@ CONTAINER_PRINCIPAL.appendChild(pie_de_pagina);
 
 const imagen= document.createElement('img');
 
-imagen.src="./imagenes/cotillon_1.jfif";
+imagen.src="./imagenes/almacen_1.jfif";
 imagen.alt="logo cotillon_1";
 imagen.width=150;
 
@@ -122,7 +124,7 @@ cuadro2.appendChild(imagen);
 
 const imagen1= document.createElement('img');
 
-imagen1.src="./imagenes/cotillon_2.jfif";
+imagen1.src="./imagenes/almacen_2.jfif";
 imagen1.alt="logo cotillon_2";
 imagen1.width=150;
 

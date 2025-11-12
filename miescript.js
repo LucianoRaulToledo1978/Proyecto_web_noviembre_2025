@@ -67,6 +67,17 @@ cotillon.classList.add('cotillon');
 
 navegador.appendChild(cotillon);
 
+const almacen= document.createElement('a');
+
+almacen.textContent='Almacen';
+
+almacen.href='./almacen.html';
+/*cotillon.target='_blank';*/
+
+cotillon.classList.add('almacen');
+
+navegador.appendChild(almacen);
+
 
 
 CONTAINER_PRINCIPAL.appendChild(navegador);
